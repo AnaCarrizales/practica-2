@@ -13,7 +13,7 @@ greet(); //invoca la función greet
 //     fn();
 // }
 
-//función como parámetro
+//Función como parámetro
 // Función refactorizada a la especificación ES6
 let logGreeting = (fn) => fn(); //fn es un argumento para invocar la función
 logGreeting(greet);
